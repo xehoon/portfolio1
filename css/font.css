@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'seoul-hangang-jung-l';
+    src: url('../font/SeoulHangangJungL/seoulhangangjungl.eot');
+    src: url('../font/SeoulHangangJungL/seoulhangangjungl.eot?#iefix') format('embedded-opentype'),
+         url('../font/SeoulHangangJungL/seoulhangangjungl.woff2') format('woff2'),
+         url('../font/SeoulHangangJungL/seoulhangangjungl.woff') format('woff'),
+         url('../font/SeoulHangangJungL/seoulhangangjungl.ttf') format('truetype'),
+         url('../font/SeoulHangangJungL/seoulhangangjungl.svg#seoulhangangjunglb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'seoul-namsan-jung-l';
+    src: url('../font/SeoulNamsanJungL/seoulnamsanjungl.eot');
+    src: url('../font/SeoulNamsanJungL/seoulnamsanjungl.eot?#iefix') format('embedded-opentype'),
+         url('../font/SeoulNamsanJungL/seoulnamsanjungl.woff2') format('woff2'),
+         url('../font/SeoulNamsanJungL/seoulnamsanjungl.woff') format('woff'),
+         url('../font/SeoulNamsanJungL/seoulnamsanjungl.ttf') format('truetype'),
+         url('../font/SeoulNamsanJungL/seoulnamsanjungl.svg#seoul-namsan-jung-l') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'seoul-namsan-jung-b';
+    src: url('../font/SeoulNamsanJungB/seoulnamsanjungb.eot');
+    src: url('../font/SeoulNamsanJungB/seoulnamsanjungb.eot?#iefix') format('embedded-opentype'),
+         url('../font/SeoulNamsanJungB/seoulnamsanjungb.woff2') format('woff2'),
+         url('../font/SeoulNamsanJungB/seoulnamsanjungb.woff') format('woff'),
+         url('../font/SeoulNamsanJungB/seoulnamsanjungb.ttf') format('truetype'),
+         url('../font/SeoulNamsanJungB/seoulnamsanjungb.svg#seoul-namsan-jung-b') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+font-family: "SeoulNamsan",'seoul-namsan-jung-l','seoul-hangang-jung-l',"SeoulHangang","Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 
+}
+
+.main_box li{
+		font-family: "SeoulNamsan",'seoul-namsan-jung-l','seoul-hangang-jung-l',"SeoulHangang","Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 
+
+}
+.search_bar{
+	font-family: "SeoulNamsan",'seoul-namsan-jung-l','seoul-hangang-jung-l',"SeoulHangang","Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 
+}
+.section_box1,.section_box2,.section_box3,.section_box4,.section_box5,.section_box6,.lower_container,.last_container{
+	font-family: 'seoul-namsan-jung-b',"SeoulNamsan",'seoul-namsan-jung-l','seoul-hangang-jung-l',"SeoulHangang","Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 
+    
+}
+.section_box3 span,.section_box5 span{
+	font-family: 'seoul-hangang-jung-l',"SeoulHangang","SeoulNamsan",'seoul-namsan-jung-l',"Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 	
+}
+.mb3 h2{
+	font-family: 'seoul-hangang-jung-l',"SeoulHangang","SeoulNamsan",'seoul-namsan-jung-l',"Nanum Gothic", 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum, serif, sans-serif; 		
+}
+.seoul a{
+    font-family: "SeoulHangang",'seoul-hangang-jung-l',굴림,Gulim,sans-serif;
+    font-weight:bold;
+}

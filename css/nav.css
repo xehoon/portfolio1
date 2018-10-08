@@ -1,0 +1,531 @@
+
+.mobile_menu {
+	display: none;
+}
+.mobile-menu{
+	display: none;
+}
+
+
+
+.upper_container1_1{
+	display: flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	-ms-flex-direction: row;
+	justify-content: center;
+	background: white;
+
+
+	width: 100%;
+	/*height: 108px;*/
+	border: 0px solid red;
+	margin: 0 auto;
+}
+
+.upper_containerA{
+	display: flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	-ms-flex-direction: row;
+
+	/*justify-content: center;*/
+	max-width: 1100px;
+	width: 100%;
+	height: 100%;
+	border: px solid red;
+}
+
+.logo{ 
+	line-height: 70px;
+	text-align: left;
+	width: 160px;
+	height: 70px;
+	/*flex-grow: 0.2;*/
+	border: px solid yellow;
+	/*margin-left:-30px!important;*/
+}
+.seoul{
+	margin: 10px auto;
+}
+.seoul a{
+	display: inline-block;
+	/*flex-grow: 0.6;*/
+	/*width: 640px;*/
+	/*margin-left: 10%;*/
+	min-width: 200px;
+	height: 100%;
+ 	text-align: center;
+ 	text-decoration: none;
+	line-height: 100%;
+	 /*color: #336699;*/
+	 color: #336699;
+	 border: px dashed green;
+	 font-size: 72px;
+	 /*margin-right: 50%;*/
+	 /*align-self: center;*/
+
+	font-family: "SeoulHangang",'seoul-hangang-jung-l',굴림,Gulim,sans-serif;
+	font-weight:bold;
+	-webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+
+
+.empty123{
+	width: 180px;
+	/*width: 30%;
+	height: 70px;*/
+	/*width: 50px;*/
+	height: 50px;
+	border: 0px solid purple;
+	visibility: hidden;
+	}
+
+.upper_container1_2{
+
+
+	width: 100%;
+	min-height: 47px;
+
+	/*min-width: 800px;*/
+	height: 30px;
+	line-height: 47px;
+	/*margin-bottom: 50px;*/
+	/*vertical-align: middle;*/
+	/*height: 7%;*/
+	border: 0px dashed gray;
+	/*background-color: #336699;*/
+	background-color: #333333;
+	justify-content:center;
+	/*font-size: 1em;*/
+	z-index: 3;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+.nav2 {
+    margin-bottom: 48px;
+    font-family: "SeoulNamsan",'seoul-namsan-jung-l','seoul-hangang-jung-l',"SeoulHangang";
+}
+.nav2 ul {
+    /**zoom: 1;*/
+    list-style: none;
+   /* margin: 0;
+    padding: 0;*/
+    /*background: #336699;*/
+}
+/*
+.nav2 ul:before,
+.nav2 ul:after {
+    content: "";
+    display: table;
+}*/
+
+/*.nav2 ul:after {
+    clear: both;
+}
+*/
+.nav2 ul > li {
+    /*float: left;*/
+    position: relative;
+}
+
+.nav2 a {
+    /*display: block;*/
+    /*padding: 10px 20px;*/
+    /*line-height: 1.2em;*/
+    /*color: #fff;*/
+    /*border-left: 1px solid #595959;*/
+    /*font-size: 1em;*/
+}
+
+/*.nav2 a:hover {
+    text-decoration: none;
+    background: #336699;
+}
+*/
+.nav2 li ul {
+     background: #339adc; 
+    /*background: #333333;*/
+
+}
+
+
+
+
+/**/
+.nav2 li.text6 ul {
+    background: #379249;
+    /*background: #333333;*/
+
+}
+
+.nav2 li.text6 ul a{
+	color: white;
+}
+.nav2 li.text7 ul {
+    background: #ff7552;
+	/*background: #333333;*/
+}
+
+
+.nav2 li.text7 ul a{
+	color: white;
+}
+.nav2 li.text8 ul {
+    background: #003366;
+    /*background: #333333;*/
+}
+
+.nav2 li.text8 ul a{
+	color: white;
+}
+
+
+
+/**/
+.nav2 li ul li {
+    width: 200px;
+}
+
+.nav2 li ul a {
+    border: none;
+}
+
+.nav2 li ul a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.nav2 ul > li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 333;
+}
+
+.nav2 li ul {
+    position: absolute;
+    /*left: -45px;*/
+    left: -40%;
+    top: 46px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0.5;
+    filter: alpha(opacity=0);
+    -webkit-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease;
+}
+
+/*---------------------------------------------------*/
+
+
+.gnb{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	display: -ms-flexbox;
+	flex-direction: row;
+	-ms-flex-direction: row;
+	justify-content: center;
+	/*padding: 0 5%;*/
+	/*text-indent: 20px;*/
+	border: px dashed lime;
+	/*overflow: hidden;*/
+	font-size: 1.25em;
+}
+.gnb li{
+	width: 10%;
+
+	text-align: center;
+	/*overflow: hidden;*/
+	padding: 0 ;
+	/*margin: 0 auto;*/
+	border: px solid #b8b8b8;
+}
+.gnb li a{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	/*width: 70%;*/
+	color: white;
+	/*font-weight: bold;*/
+	/*font-size: 1.25em;*/
+	font-size: 1em;
+	/*text-indent: 10%;*/
+	/*border-right: 1px solid white;*/
+	/*border-left: 1px solid white;*/
+}
+
+.gnb li a:hover, .gnb li a:active{
+	background: #339adc;
+	/*background: #333333;*/
+}
+.gnb li.text6 a:hover, .gnb li.text6 a:active{
+	background: #379249;
+	/*background: #333333;*/
+	color: white;
+}
+.gnb li.text7 a:hover, .gnb li.text7 a:active{
+	background: #ff7552;
+	/*background: #333333;*/
+	color: white;
+}
+.gnb li.text8 a:hover, .gnb li.text8 a:active{
+	background: #003366;
+	/*background: #333333;*/
+	color: white;
+}
+.gnb .text1 ul{
+	columns: 2;
+	margin-left: -100px;
+}
+.gnb .text2 a{
+	/*border-left: 2px solid white;*/
+}
+.gnb .text6 a{
+	/*color: #339933;*/
+	/*border: px solid green;*/
+}
+.gnb .text7 a{
+	/*color: #ff6666;*/
+
+}
+
+.gnb .text8 a{
+	/*color: #33ccff;*/
+	/*border-right: 2px solid white;*/
+
+}
+.gnb .empty{
+	border: 0;
+	visibility: hidden;
+	/*border: 1px solid red;*/
+}
+
+.language{
+
+	min-width: 120px;
+	flex-basis: 0.2;
+	-ms-flex-basis: 0.2;
+	width: 100%;
+	/*border: 0px;
+	border-radius: 20px;
+	background-color: white;*/
+	/*margin-left: 10%;*/
+	margin: 0 auto;
+	text-align: center;
+	border: 0px solid red;
+	/*overflow: hidden;*/
+	/*margin-left: -100px;*/
+}
+
+.language .lang{
+	display: inline-block;
+	border: 0px solid yellow;
+	border-radius: 5px;
+	background-color: white;
+	/*min-width: 130px;*/
+	/*min-width: 120px;*/
+	width:120px;
+	/*min-width: 100%;*/
+	min-height: 25px;
+	color: #339adc;
+	text-align: left;
+	line-height: 25px;;
+	text-indent: 10px;
+	font-size: .75em;
+	/*align-items: baseline;*/
+	/*align-self: bottom;*/
+	/*align-content: bottom;*/
+/*	margin-right: */
+
+	/*화살표 없애기*/
+	/* 네이티브 외형 감추기 */
+	-webkit-appearance: none;
+	 -moz-appearance: none; 
+	-ms-appearance: none; 
+	 appearance: none;
+	 background: url(../images/common/go.png)no-repeat center center;
+	background-size: cover;
+
+}
+
+.lang option a{
+	justify-content: bottom;
+	text-align: bottom;
+}
+select:-ms-expand { display: none; }
+/*language go 버튼넣기*/
+/*.lang option a{
+	width: 100%;
+	text-indent: 4px;
+}*/
+
+
+
+
+/*-----------------------------------------------------------------*/
+@media screen and (max-width:1100px) {
+
+	
+	.upper_container1_1{
+		width: 100%;
+		border: px solid orange;
+
+	}
+	.upper_containerA{
+		width: 100%;
+		border: px dotted purple;
+	}
+	
+	.seoul{
+		width: 100%;
+		border: px dotted purple;
+	}
+	.seoul a{
+		display: inline-block;
+		width: 100%;
+		border: px dotted purple;
+	}
+	.gnb>li{
+		font-size: 1.5rem;
+		/*width: 20%*/
+	}
+	.gnb .empty{
+		display: none;
+	}
+	
+
+	
+	
+}
+/*----------------------------------------------------*/
+@media screen and (max-width:765px) {
+
+	.mobile-menu{
+	/*width: 30%;*/
+	display: inline-block;
+	}
+
+	.mobile-menu img{
+		width: 100px;
+		height: 50px;	
+		margin: 0 auto;
+		border: px solid skyblue;
+		margin: 5px;
+		position: static;
+	}
+
+	.upper_container1_1{
+		width: 100%;
+
+		border: 0px solid tomato;
+	}
+	.upper_containerA{
+		width: 100%;
+		height: 60px;
+		border: px solid navy;
+	}
+	.upper_container1_2{
+		display: none;
+	}
+	.seoul {
+	width: 100%;
+	height: auto;
+	border: px solid pink;
+	margin:0 auto;
+	/*text-align: center;*/
+	}
+	.seoul a{
+
+		display: inline-block;
+		width:100%;
+		text-align: center;
+
+	 	font-size: 1.5em;
+	 	line-height: 1.15em;
+
+		border: px solid orange;
+	}
+
+	.logo{
+		display: none;
+	}
+	.eng_logo{
+		display: none;
+	}
+
+	
+	.empty123{
+		/*width: 160px;*/
+		/*width: 30%;
+		height: 70px;*/
+		width: 80px;
+		height: 50px;
+		border: 0px solid purple;
+		visibility: hidden;
+	}
+
+
+	.search_bar{
+
+		width: 100%;
+		border: px solid yellow;
+		/*margin: 0 auto;*/
+	}
+	.search_box{
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+
+		border: px solid black;
+	}
+	.search_box form{
+		width: 90%;
+		margin: 0 auto;
+		border: px solid pink;
+	}
+	.input-group{
+		width: 100%;
+		border: px solid blue;
+	}
+	.form-control{
+		width: 100%;
+		border: px solid tomato;
+	}
+	.empty{
+		display: none;
+	}
+	.search_bar,.search_box, .input-group, .form-control{
+		/*display: inline-block;*/
+		margin: 0 auto;
+		padding-top: 3px;
+		width: 100%!important;
+	 /*position: static;*/
+	 border: 0px solid yellow;
+
+	}
+	.search_bar .empty{
+		display: none;
+	}
+	/*.empty123{
+	width: 10%;
+	max-width: 50px;
+	height: 70px;
+	border: 0px solid purple;
+	visibility: hidden;
+	}*/
+}
+/*---------------------------------------------------------*/
