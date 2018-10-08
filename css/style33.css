@@ -1,0 +1,88 @@
+
+
+
+/*Lighbox CSS*/
+
+
+.lightbox{
+	display: none;
+	width: 100%;
+	height: 100%;
+	/*padding:50px;*/
+	background-color: rgba(0,0,0,.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	padding-top: 30px;
+	box-sizing: border-box;
+	
+}
+
+.lightbox img{
+	display: block;
+  margin: auto;
+ /* width: 500px;
+  height: 500px;*/
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  border: 10px solid #888888;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.lightbox .caption{
+	margin: 15px auto;
+	/*width: 50%;*/
+	width: 500px;
+	text-align: center;
+	font-size: 3em;
+	line-height: 2;
+	font-weight: 700;
+	color: #eee;
+	margin-top: -15px;
+	background: #888888;
+	 border-radius: 0 0 5px 5px;
+}
+
+@media screen and (max-width: 767px) {
+	
+		.lightbox img{
+		display: block;
+	  margin: auto;
+	
+	  width:80%;
+	  height: auto;
+	  max-width: 500px;
+	  max-height: 500px;
+	  border: 10px solid #888888;
+	  border-radius: 5px 5px 0 0;
+	}	
+	.lightbox .caption{
+	margin: 15px auto;
+	/*width: 50%;*/
+	/*width: 80%;*/
+	width:80%;
+	text-align: center;
+	font-size: 5vh;
+	line-height: 2;
+	font-weight: 700;
+	color: #eee;
+	margin-top: -15px;
+	background: #888888;
+	 border-radius: 0 0 5px 5px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .lightbox-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lightbox > div {
+    margin-bottom: 10px;
+  }
+}
