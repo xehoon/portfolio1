@@ -1,0 +1,93 @@
+<li class="text2" ><a href="./seoul1_login2.html">로그인</a></li>
+
+          <li class="text1"><a href="./seoul_menu00.html">분야별정보</a>
+            <ul>
+              <li><a href="./seoul_menu01.html">복지</a></li>
+              <li><a href="./seoul_menu02.html">여성</a></li>
+              <li><a href="./seoul_menu03.html">경제</a></li>
+              <li><a href="./seoul_menu04.html">안전</a></li>
+              <li><a href="./seoul_menu05.html">주택</a></li>
+              <li><a href="./seoul_menu06.html">환경</a></li>
+              <li><a href="./seoul_menu07.html">문화</a></li>
+              <li><a href="./seoul_menu08.html">건강</a></li>
+              <li><a href="./seoul_menu09.html">교통</a></li>
+              <li><a href="./seoul_menu10.html">건설</a></li>
+              <li><a href="./seoul_menu11.html">세금</a></li>
+              <li><a href="./seoul_menu12.html">행정</a></li>
+            </ul>
+
+          </li>
+
+
+          <li class="text3"><a href="./seoul_citizen00.html">시민참여</a>
+            <ul>
+              <li><a href="./seoul_citizen01.html">시민과의 대화</a></li>
+              <li><a href="#">시민청원/제안</a></li>
+              <li><a href="./seoul_citizen03.html">시민감사</a></li>
+              <li><a href="./seoul_citizen04.html">시민의견</a></li>
+              <li><a href="http://mediahub.seoul.go.kr/gongmo2" target="_blank">공모전</a></li>
+            </ul>
+          </li>
+
+          <li class="text4"><a href="./seoul_introduce00.html">서울소개</a>
+            <ul>
+              <li><a href="./seoul_introduce01.html">시청안내</a></li>
+              <li><a href="./seoul_introduce02.html">서울의 상징</a></li>
+              <li><a href="./seoul_introduce03.html">서울의 역사</a></li>
+              <li><a href="./seoul_introduce04.html">서울INFO</a></li>
+              <li><a href="./seoul_introduce05.html">시민표창</a></li>
+             
+            </ul>
+          </li>
+
+
+          <li class="text5"><a href="http://eungdapso.seoul.go.kr" target="_blank">응답소</a>
+            <ul>
+              <li><a href="https://eungdapso.seoul.go.kr/login/loginForm.jsp?writeYN=Y" target="_blank">민원제안신청</a></li>
+              <li><a href="https://eungdapso.seoul.go.kr/Mpg/Mpg_not.jsp" target="_blank">민원제안결과</a></li>
+              <li><a href="https://eungdapso.seoul.go.kr/Exp/Exp01/Exp01_lis.jsp" target="_blank">민원제안사례</a></li>
+              <li><a href="https://eungdapso.seoul.go.kr/Gud/Gud_tab_lis.jsp" target="_blank">민원정보즐겨찾기</a></li>
+              <li><a href="https://eungdapso.seoul.go.kr/Cmn/Cmn01/Cmn01_not.jsp" target="_blank">소통현황</a></li>
+            </ul>
+          </li>
+
+
+          <li class="text6"><a href="#">시민</a>
+            <ul>
+              <li><a href="#">서울통계</a></li>
+              <li><a href="#">법령정보</a></li>
+              <li><a href="#">세금납부</a></li>
+              <li><a href="#">도시계획</a></li>
+              <li><a href="#">더보기</a></li>
+            </ul>
+          </li>
+
+          <li class="text7"><a href="#">사업자</a>
+            <ul>
+              <li><a href="#">자영업지원센터</a></li>
+              <li><a href="#">일자리카페</a></li>
+              <li><a href="#">전자상거레</a></li>
+              <li><a href="#">입찰정보조회</a></li>
+              <li><a href="#">더보기</a></li>
+            </ul>
+          </li>
+
+          <li class="text8"><a href="#">관광객</a>
+            <ul>
+              <li><a href="#">서울시티투어버스</a></li>
+              <li><a href="#">서울특화관광</a></li>
+              <li><a href="#">가이드북&지도</a></li>
+              <li><a href="#">여행필수정보</a></li>
+              <li><a href="#">더보기</a></li>
+            </ul>
+          </li>
+
+          <li class="empty"><a href="#"></a></li>
+          
+          <li class="language">
+            <select class="lang">
+              <option><a href="#"> ENGLISH</a></option>
+              <option><a href="#"> JAPANESE</a></option>
+              <option><a href="#"> CHINESE</a></option>
+            </select>
+          </li>

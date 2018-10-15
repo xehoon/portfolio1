@@ -1,0 +1,18 @@
+<div class="box3_1"><a href="./seoul_menu07.html"><img src="./images/main/box3-11.png" alt="3-1"><h4>공연별행사<br>프로그램</h4></a>
+<span>문화</span>
+</div>
+<div class="box3_2"><a href="./seoul_menu06.html"><img src="./images/main/box3-22.png" alt="3-2"><h4>도시가족<br>주말농부</h4></a>
+<span>환경</span>
+</div>
+<div class="box3_3"><a href="./seoul_menu09.html"><img src="./images/main/box3-33.png" alt="3-3"><h4>주말버스<br>막차연장</h4></a>
+<span>교통</span>
+</div>
+<div class="box3_4"><a href="./seoul_menu04.html"><img src="./images/main/box3-444.png" alt="3-4"><h4>안전의날<br>소방훈련</h4></a>
+<span>안전</span>
+</div>
+<div class="box3_5"><a href="./seoul_menu01.html"><img src="./images/main/box3-55.png" alt="3-5"><h4> 자영업<br>지원센터</h4></a>
+<span>복지</span>
+</div>
+<div class="box3_6"><a href="./seoul_menu12.html"><img src="./images/main/box3-66.png" alt="3-6"><h4>시민참여단<br>모집</h4></a>
+<span>행정</span>
+</div>

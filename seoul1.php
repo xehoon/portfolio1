@@ -27,7 +27,7 @@
 
 <!-- 부가적인 테마 -->
 <link rel="stylesheet" href="./css/bootstrap-theme.css">
-<link rel="stylesheet" href="js/prefixfree.min.js">
+<link rel="stylesheet" href="./js/prefixfree.min.js">
 <script src="./js/prefixfree.min.js"></script> 
 
 
@@ -62,30 +62,10 @@
    <link rel="stylesheet" href="css/font.css">
    <link rel="stylesheet" href="css/repre.css">
 
-
-
- <link rel="stylesheet" href="css/hamburger.css">
-
-
-
-   <!-- <script src="js/lightbox.js"></script> -->
-
-
    <!--[if IE]>
     <link rel="stylesheet" href="css/seoul_IE.css"
    <![endif]-->
-    <!--[if IE]><!-->
- <!--   <style>
-     .section_box3{
-      height: 700px;
-     }
-      .section_box5{
-        height: 300px;
-      }
-
-   </style>
-    -->
-   <!--<![endif]-->
+    
 
 
 
@@ -112,50 +92,22 @@
 </div>
  --> 
 <!--  <img src="./images/common/mobile_menu.png" alt="메뉴"> -->
-    <div class="mobile-menu ">
-      <a class="dropdown-link open">
-        <span class="cls"></span>
-        <span></span>
-        <span class="cls"></span>
+    <div class="mobile-menu">
+      <a class="dropdown-link">
       <!-- 메뉴 -->
       </a>
       <ul class="mobile-dropdown">
-        <li><a href="./seoul1_login2.html">로그인</a></li>
-        <li><a href="./seoul_menu00.html">분야별정보</a>
-          <ul class="inbox">
-            <li><a href="./seoul_menu01.html">-복지</a></li>
-            <li><a href="./seoul_menu02.html">-여성</a></li>
-            <li><a href="./seoul_menu03.html">-경제</a></li>
-            <li><a href="./seoul_menu04.html">-안전</a></li>
-            <li><a href="./seoul_menu05.html">-주택</a></li>
-            <li><a href="./seoul_menu06.html">-환경</a></li>
-            <li><a href="./seoul_menu07.html">-문화</a></li>
-            <li><a href="./seoul_menu08.html">-건강</a></li>
-            <li><a href="./seoul_menu09.html">-교통</a></li>
-            <li><a href="./seoul_menu10.html">-건설</a></li>
-            <li><a href="./seoul_menu11.html">-세금</a></li>
-            <li><a href="./seoul_menu12.html">-행정</a></li> 
-          </ul>
-        </li>
+        <li><a href="./seoul1_login.html">로그인</a></li>
+        <li><a href="./seoul_menu00.html">분야별정보</a></li>
         <li><a href="./seoul_citizen00.html">시민참여</a></li>
         <li><a href="./seoul_introduce00.html">서울소개</a></li>
-        <li><a href="http://eungdapso.seoul.go.kr">응답소</a></li>
+        <li><a href="#">응답소</a></li>
         <li><a href="#">시민</a></li>
         <li><a href="#">사업자</a></li>
         <li><a href="#">관광객</a></li>
-        <li><a href="#">Language</a>
-          <ul class="inbox">
-            <li><a href="#">-한국어</a></li>
-            <li><a href="http://english.seoul.go.kr/">-Eglish</a></li>
-            <li><a href="http://chinese.seoul.go.kr">-Chinese</a></li>
-            <li><a href="http://japanese.seoul.go.kr">-Japanese</a></li>
-          </ul>
-        </li>
         
 
       </ul>
-
-     
 
     </div>
 
@@ -176,8 +128,13 @@
     <div class="upper_container1_2">
         <nav class="nav2">        
          <ul class="gnb">
-        
-          <li class="text2" ><a href="./seoul1_login2.html">로그인</a></li>
+         <li> 
+         <?php
+          echo file_get_contents("list.txt");
+          ?>
+         </li>
+
+          <!-- <li class="text2" ><a href="./seoul1_login2.html">로그인</a></li>
 
           <li class="text1"><a href="./seoul_menu00.html">분야별정보</a>
             <ul>
@@ -214,7 +171,7 @@
               <li><a href="./seoul_introduce02.html">서울의 상징</a></li>
               <li><a href="./seoul_introduce03.html">서울의 역사</a></li>
               <li><a href="./seoul_introduce04.html">서울INFO</a></li>
-              <li><a href="http://prize.seoul.go.kr/New2014/index.jsp" target="_blank">시민표창</a></li>
+              <li><a href="./seoul_introduce05.html">시민표창</a></li>
              
             </ul>
           </li>
@@ -232,43 +189,42 @@
 
 
           <li class="text6"><a href="#">시민</a>
-           <!--  <ul>
+            <ul>
               <li><a href="#">서울통계</a></li>
               <li><a href="#">법령정보</a></li>
               <li><a href="#">세금납부</a></li>
               <li><a href="#">도시계획</a></li>
               <li><a href="#">더보기</a></li>
-            </ul> -->
+            </ul>
           </li>
 
           <li class="text7"><a href="#">사업자</a>
-            <!-- <ul>
+            <ul>
               <li><a href="#">자영업지원센터</a></li>
               <li><a href="#">일자리카페</a></li>
               <li><a href="#">전자상거레</a></li>
               <li><a href="#">입찰정보조회</a></li>
               <li><a href="#">더보기</a></li>
-            </ul> -->
+            </ul>
           </li>
 
           <li class="text8"><a href="#">관광객</a>
-            <!-- <ul>
+            <ul>
               <li><a href="#">서울시티투어버스</a></li>
               <li><a href="#">서울특화관광</a></li>
               <li><a href="#">가이드북&지도</a></li>
               <li><a href="#">여행필수정보</a></li>
               <li><a href="#">더보기</a></li>
-            </ul> -->
+            </ul>
           </li>
 
-          <li class="empty"><a href="#"></a></li>
+          <li class="empty"><a href="#"></a></li> -->
           
           <li class="language">
             <select class="lang">
-              <option><a href="http://english.seoul.go.kr/"> ENGLISH</a></option>
-              <option><a href="http://chinese.seoul.go.kr"> JAPANESE</a></option>
-              <option><a href="http://japanese.seoul.go.kr"> CHINESE</a></option>
-
+              <option><a href="#"> ENGLISH</a></option>
+              <option><a href="#"> JAPANESE</a></option>
+              <option><a href="#"> CHINESE</a></option>
             </select>
           </li>
         </ul>
@@ -386,7 +342,7 @@
 
                     <div class="rel_text4 rel_box">
                     <a href="#"><div class="rel_text4_title">관광객 환대주간</div>
-                    <div class="rel_text4_sub rel_sub"> 서울시는 가을철, 외국인 관광객 방문 성수기를 맞이하여 9.25부터 10.5까지 11일간 시내 관광특구 7개 지역에서 ‘2014년 가을시즌 외국인 관광객 환대 주간’ 을 운영한다고 밝혔다. 이 행사는 7개 기관이 함께 참여하여 민관 공동협력으로 진행된다.
+                    <div class="rel_text4_sub rel_sub"> 서울시는 가을철, 외국인 관광객 방문 성수기를 맞이하여 9.25부터 10.5까지 11일간 시내 관광특구 7개 지역에서 ‘2014년 가을시즌 외국인 관광객 환대 주간’ 을 운영한다고 밝혔다. <br>이 행사는 7개 기관이 함께 참여하여 민관 공동협력으로 진행된다.
                     </div></a>
                     </div>
                     </div>
@@ -461,7 +417,7 @@
           </div><!--box1_middleB -->
 
           <div class="box1_right">
-            <div class="right_box1"><span class="blue_bar"><a href="http://mayor.seoul.go.kr">소셜시장실</a></span></div>
+            <div class="right_box1"><span class="blue_bar"><a href="#">소셜시장실</a></span></div>
             <div class="right_box2">
                   <div class="right_box2a">
                     <a href="#">공약&메니페스토</a>
@@ -496,31 +452,27 @@
                   </header>
                   <!-- <hr class="o-20" /> -->
                   <div class="flex-m flex-l flex-wrap items-center justify-between nl3 nr3 pt4 mb4">
-                    
-                    <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l zzzzz">
+                    <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l ">
                       <div class="w-50 w-50-m w-75-l center">
                         <doughnut :labels="newVsReturning.labels" :data="newVsReturning.data"></doughnut>
                       </div>
                       <h3 class="mt3 mb1 f6 fw5 silver">교통지수</h3>
                       <h4 class="dark-gray f3 fw3 mv0"><a href="#"><span class="firstA">주의</span></a></h4>
                     </div>
-
-                    <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l zzzzz">
-                      <div class="w-50 w-50-m w-75-l center">
-                        <doughnut :labels="newVsRecurring.labels" :data="newVsRecurring.data"></doughnut>
-                      </div>
-                      <h3 class="mt3 mb1 f6 fw5 silver">대기지수</h3>
-                      <h4 class="dark-gray f3 fw3 mv0"><a href="#"><span class="secondA">미세먼지 보통</span></a></h4>
+                  <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l">
+                    <div class="w-50 w-50-m w-75-l center">
+                      <doughnut :labels="newVsRecurring.labels" :data="newVsRecurring.data"></doughnut>
                     </div>
-
-                    <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l zzzzz">
-                      <div class="w-50 w-50-m w-75-l center">
-                        <doughnut :labels="directVsReferrals.labels" :data="directVsReferrals.data"></doughnut>
-                      </div>
-                      <h3 class="mt3 mb1 f6 fw5 silver">질병</h3>
-                      <h4 class="dark-gray f3 fw3 mv0"><a href="#">모기예보 1단계</a></h4>
+                    <h3 class="mt3 mb1 f6 fw5 silver">대기지수</h3>
+                    <h4 class="dark-gray f3 fw3 mv0"><a href="#"><span class="secondA">미세먼지 보통</span></a></h4>
+                  </div>
+                  <div class="w-100 w-50-m w-33-l ph3 tc mb4 mb0-l zzz333">
+                    <div class="w-50 w-50-m w-75-l center">
+                      <doughnut :labels="directVsReferrals.labels" :data="directVsReferrals.data"></doughnut>
                     </div>
-
+                    <h3 class="mt3 mb1 f6 fw5 silver">질병</h3>
+                    <h4 class="dark-gray f3 fw3 mv0"><a href="#">모기예보 1단계</a></h4>
+                  </div>
                 </div>
                   
               </article>
@@ -537,11 +489,13 @@
 
 
         <div class="section_box3"><p><a href="#">새소식</a></p>
-        
-          <div class="box3_1"><a href="./seoul_menu07.html"><img src="./images/main/box3-11.png" alt="3-1"><h4>공연별행사<br>프로그램</h4></a>
+           <?php
+           echo file_get_contents("section_box3.txt");
+           ?>
+          <!-- <div class="box3_1"><a href="./seoul_menu07.html"><img src="./images/main/box3-11.png" alt="3-1"><h4>공연별행사<br>프로그램</h4></a>
           <span>문화</span>
-          </div>
-          <div class="box3_2"><a href="./seoul_menu06.html"><img src="./images/main/box3-22.png" alt="3-2"><h4>도시가족<br>주말농부</h4></a>
+          </div> -->
+          <!-- <div class="box3_2"><a href="./seoul_menu06.html"><img src="./images/main/box3-22.png" alt="3-2"><h4>도시가족<br>주말농부</h4></a>
            <span>환경</span>
            </div>
           <div class="box3_3"><a href="./seoul_menu09.html"><img src="./images/main/box3-33.png" alt="3-3"><h4>주말버스<br>막차연장</h4></a>
@@ -555,7 +509,7 @@
           </div>
           <div class="box3_6"><a href="./seoul_menu12.html"><img src="./images/main/box3-66.png" alt="3-6"><h4>시민참여단<br>모집</h4></a>
           <span>행정</span>
-          </div>
+          </div> -->
           <!-- <div class="box3_7">도시농업박람회<br>국제컨퍼런스</div>
           <div class="box3_8">시민참여단<br>모집</div> -->
           <!-- <span class="forAll"><a href="#">전체보기</a></span> -->
@@ -600,7 +554,7 @@
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
 
 
-                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/%EC%84%9C%EC%9A%B8%EC%8B%9C" data-widget-id="867191433295314944"><img src="./images/big/twitter00.png" height="270px" alt=""></a>
+                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/%EC%84%9C%EC%9A%B8%EC%8B%9C" data-widget-id="867191433295314944">#서울시 관련 트윗</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           
           
@@ -625,7 +579,10 @@
 
 
         <div class="section_box5"><p><a href="#">추천정보</a></p>
-          <div class="box5_1"><a href="./seoul_menu07.html"><img src="./images/main/box5-11.png" alt="5-1"><h4>축제정보<br> 전등축제</h4></a>
+         <?php
+           echo file_get_contents("section_box5.txt");
+           ?>
+          <!-- <div class="box5_1"><a href="./seoul_menu07.html"><img src="./images/main/box5-11.png" alt="5-1"><h4>축제정보<br> 전등축제</h4></a>
           <span>문화</span>
           </div>
           <div class="box5_2"><a href="#"><img src="./images/3/seoulo.png" alt="5-2"><h4>'서울로 7017'<br>5월 개장합니다</h4></a>
@@ -636,7 +593,7 @@
           </div>
           <div class="box5_4"><a href="./seoul_menu12.html"><img src="./images/main/s.png" alt="5-3"><h4>촛불 시위<br>주말 집회</h4></a>
           <span>행정</span>
-          </div>
+          </div> -->
 
         </div><!--  section_box5-->
 
@@ -678,8 +635,7 @@
 
                 <div class="btn-group box6_left2">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    지역 
-                    <span class="caret"></span>
+                    지역 <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu btnbtn2" role="menu">
                     <li><a href="#">강남구</a></li>
@@ -734,14 +690,14 @@
 
               <ul class="box6_middle">
                <li class="box6_middle1"><a href="#"> <div class="middle_inner">1.보라매공원은 화요일과 목요일 오후 3시</div></a></li>
-                <li class="box6_middle2"><a href="#"><div  class="middle_inner">2.신도림역 그린컴퓨터학원 정전행사를 ...</div></a></li>
+                <li class="box6_middle2"><a href="#"><div  class="middle_inner">2.신도림역 그린컴퓨터학원 정전</div></a></li>
                 <li class="box6_middle3"><a href="#"><div  class="middle_inner">3.남산공원은 토요일 석호정 활쏘기</div></a></li>
-                <li class="box6_middle4"><a href="#"><div class="middle_inner">4.청사 개방의 날을 맞아 시청에서... </div></a></li>
+                <li class="box6_middle4"><a href="#"><div class="middle_inner">4.부천 김경래씨가 매일 지각을 하여 논란이 </div></a></li>
                 <li class="box6_middle5"><a href="#"><div class="middle_inner">5.올해 실업자교육과정 취업률 1%..</div></a></li>
                 <li class="box6_middle6"><a href="#"> <div class="middle_inner">6.보라매공원은 화요일 오후 3시에</div></a></li>
-                 <li class="box6_middle7"><a href="#"><div  class="middle_inner">7. 서울로 7017이 완공 기념행사가 오후1시</div></a></li>
+                 <li class="box6_middle7"><a href="#"><div  class="middle_inner">7.신도림역 그린컴퓨터학원 정전</div></a></li>
                  <li class="box6_middle8"><a href="#"><div  class="middle_inner">8.남산공원은 토요일 국궁장에서 활쏘기</div></a></li>
-                 <li class="box6_middle9"><a href="#"><div class="middle_inner">9.광광객 환대 주간을 맞아 명동에서 </div></a></li>
+                 <li class="box6_middle9"><a href="#"><div class="middle_inner">9.부천 김경래씨가 매일 지각을 하여 논란이 </div></a></li>
                  <li class="box6_middle10"><a href="#"><div class="middle_inner">10.시청에서 촛불집회.</div></a></li>
 
               </ul>
@@ -785,7 +741,7 @@
           <img src="./images/main/repre_12.jpg" alt="">
         </div> -->
 
-      <a href="#" title="서울특별시 홈페이지에 오신 것을 환영합니다!" onclick="myFunction()" ><div id="floatMenu"></div></a>
+      <a href="#" title="궁금하신게 있으면 물어보세요" onclick="myFunction()" ><div id="floatMenu"></div></a>
 
       
 
@@ -933,6 +889,9 @@
 
         </div>
       </div><!-- lower_container  -->
+
+
+
       <footer> 
       <div class="last_container">
         <div class="footer_A"><a href="#"><img src="./images/common/call120.gif" alt="120"></a>
@@ -1034,40 +993,16 @@
 
   <script>
 function myFunction() {
-    alert("그렇다고 누르진 마세요")
+    alert("서비스 준비중입니다")
 }
-
 </script>
 
             
 
 
-     <!-- <script src="js/index6.js"></script> -->
-     <script src="js/lightbox.js"></script>
+     <script src="js/index6.js"></script>
      <script src="js/date.js"></script>
      <script src="js/map.js"></script>
-
-
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/593fe5b7282a395fdf74c71f/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
-
-<script src="js/hamburger.js"></script>
-
-
-
 
 
   </body>

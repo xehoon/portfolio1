@@ -1,0 +1,8 @@
+<li><a href="./seoul1_login.html">로그인</a></li>
+<li><a href="./seoul_menu00.html">분야별정보</a></li>
+<li><a href="./seoul_citizen00.html">시민참여</a></li>
+<li><a href="./seoul_introduce00.html">서울소개</a></li>
+<li><a href="#">응답소</a></li>
+<li><a href="#">시민</a></li>
+<li><a href="#">사업자</a></li>
+<li><a href="#">관광객</a></li>
